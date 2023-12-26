@@ -1,0 +1,126 @@
+.lpc-reviews-2 {
+	position: relative;
+}
+
+.lpc-reviews-2 .lp-block-overlay {
+	background-color: rgba(31, 80, 161, 0.1);
+}
+
+.lpc-reviews-2__title {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.lpc-reviews-2-item-list {
+	justify-content: center;
+}
+
+._left .lpc-reviews-2-item-list, ._left .lpc-reviews-2-buttons {
+	justify-content: flex-start;
+}
+
+._right .lpc-reviews-2-item-list, ._right .lpc-reviews-2-buttons {
+	justify-content: flex-end;
+}
+
+.lpc-reviews-2__row {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.lpc-reviews-2-item-header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.lpc-reviews-2-item__photo {
+	position: relative;
+	line-height: 0;
+	width: 48px;
+	height: 48px;
+	border-radius: 24px;
+	overflow: hidden;
+	background-color: #000;
+	margin-right: 16px;
+	max-width: 120px;
+}
+
+.lpc-reviews-2-item-info {
+	-ms-flex-item-align: center;
+	align-self: center;
+}
+
+.lpc-reviews-2-item__company {
+	margin-top: 4px;
+}
+
+.lpc-reviews-2-item__company-element {
+	display: inline-block;
+}
+
+.lpc-reviews-2-item__text {
+	padding: 16px;
+	margin-top: 16px;
+}
+
+.lpc-reviews-2-buttons {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.lpc-reviews-2__button {
+	margin: 0 8px;
+}
+
+.lpc-reviews-2._left .lpc-reviews-2__title {
+	text-align: left;
+	margin-left: 0;
+}
+
+.lpc-reviews-2._right .lpc-reviews-2__title {
+	text-align: right;
+	margin-right: 0;
+}
+
+.lpc-reviews-2[data-media-source="mobile"] {
+	padding: 32px 0;
+}
+
+.lpc-reviews-2[data-media-source="mobile"] .lpc-reviews-2-item {
+	margin-top: 24px;
+}
+
+.lpc-reviews-2[data-media-source="mobile"] .lpc-reviews-2-buttons {
+	margin: 24px 0 0;
+}
+
+.lpc-reviews-2[data-media-source="mobile"] .lpc-reviews-2__button {
+	width: 100%;
+	margin: 8px 0 0;
+}
+
+.lpc-reviews-2[data-media-source="tablet"] {
+	padding: 56px 0;
+}
+
+.lpc-reviews-2[data-media-source="tablet"] .lpc-reviews-2-item {
+	margin-top: 40px;
+}
+
+.lpc-reviews-2[data-media-source="tablet"] .lpc-reviews-2-buttons {
+	margin-top: 40px;
+}
+
+.lpc-reviews-2[data-media-source="desktop"] {
+	padding: 80px 0;
+}
+
+.lpc-reviews-2[data-media-source="desktop"] .lpc-reviews-2-item {
+	margin-top: 48px;
+}
+
+.lpc-reviews-2[data-media-source="desktop"] .lpc-reviews-2-buttons {
+	margin-top: 48px;
+}
